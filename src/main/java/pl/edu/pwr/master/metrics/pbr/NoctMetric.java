@@ -1,4 +1,4 @@
-package pl.edu.pwr.master.metrics.general;
+package pl.edu.pwr.master.metrics.pbr;
 
 import com.github.javaparser.ast.CompilationUnit;
 import com.github.javaparser.ast.body.MethodDeclaration;

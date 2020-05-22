@@ -8,13 +8,13 @@ import pl.edu.pwr.master.core.model.Metric;
 import java.util.List;
 
 /**
- * TFU - Test Framework usage
+ * ALU - Assertion Library usage
  */
 
-public class TfuMetric extends ClassMetricStrategy<Boolean> {
+public class AluMetric extends ClassMetricStrategy<Boolean> {
 
-    private static final String METRIC_NAME = "TFU";
-    private static final String frameworks = "[\\s|.]hamcrest[.|*]|[\\s|.]fest[.|*]|[\\s|.]assertj[.|*]|[\\s|.]atrium[.|*]|[\\s|.]strikt[.|*]";
+    private static final String METRIC_NAME = "ALU";
+    private static final String frameworks = "[\\s|.]hamcrest[.|*]|[\\s|.]fest[.|*]|[\\s|.]assertj[.|*]|[\\s|.]atrium[.|*]|[\\s|.]truth[.|*]|[\\s|.]valid4j[.|*]|[\\s|.]ttddyy.dsproxy.asserts[.|*]";
 
     @Override
     public List<Metric<Boolean>> compute(CompilationUnit compilationUnit) {

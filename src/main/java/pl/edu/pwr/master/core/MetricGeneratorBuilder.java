@@ -5,6 +5,7 @@ import pl.edu.pwr.master.metrics.general.*;
 import pl.edu.pwr.master.metrics.martin.CaMetric;
 import pl.edu.pwr.master.metrics.martin.CeMetric;
 import pl.edu.pwr.master.metrics.qmood.*;
+import pl.edu.pwr.master.metrics.pbr.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,7 +31,24 @@ public class MetricGeneratorBuilder {
                     new WmcMetric(),
                     new WmcnammMetric(),
                     new WocMetric(),
-                    new NpmMetric()
+                    new NpmMetric(),
+                    new NoasitMetric(),
+                    new NoaitMetric(),
+                    new NoauMetric(),
+                    new NobuMetric(),
+                    new NoctMetric(),
+                    new NodtMetric(),
+                    new NodvMetric(),
+                    new NoecuMetric(),
+                    new NoeetMetric(),
+                    new NoetMetric(),
+                    new NofsMetric(),
+                    new NoisMetric(),
+                    new NonoMetric(),
+                    new NoptMetric(),
+                    new NortMetric(),
+                    new NostMetric(),
+                    new AluMetric()
             )
             );
 
@@ -49,7 +67,7 @@ public class MetricGeneratorBuilder {
                     new CamMetric(),
                     new CeMetric(),
                     new CaMetric()
-                )
+            )
             );
 
     private List<MetricStrategy> strategies;
